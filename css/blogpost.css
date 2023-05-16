@@ -4,24 +4,25 @@
   display: grid;
   justify-items: center;
   row-gap: 20px;
-  align-items: center; /* Vertically center the blog container */
-  min-height: 100vh; /* Ensure the container takes up the full height of the viewport */
+  align-items: center; 
+  min-height: 100vh; 
 }
 
 .blog-container {
   display: grid;
-  grid-template-columns: 1fr; /* Specify a single column */
-  justify-items: center; /* Center items horizontally */
-  max-width: 600px; /* Optional: Limit the maximum width of the blog container */
+  grid-template-columns: 1fr; 
+  justify-items: center; 
+  max-width: 600px; 
 }
 
 
 .blog-box {
-  width: 100%;
+  width: 600px;
   background: #ffffff;
   border: 1px solid #ececec;
   margin: 20px;
 }
+
 
 .share-links {
   display: flex;

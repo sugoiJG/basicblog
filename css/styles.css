@@ -5,60 +5,9 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  #blog {
-    padding: 20px;
-  }
-
-  .blog-box {
-    margin: 10px;
-  }
-
-  .blog-text {
-    padding: 20px;
-  }
-
-  footer {
-    margin: 10px 0;
-  }
-}
-
-@media (max-width: 550px) {
-  .blog-heading h3 {
-    font-size: 2rem;
-  }
-
-  .blog-text .blog-title {
-    font-size: 1.1rem;
-  }
-
-  .blog-text span {
-    font-size: 0.8rem;
-  }
-
-  .blog-text p {
-    font-size: 0.8rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 425px) {
-  .blog-img img {
-    height: auto;
-    max-height: 200px;
-  }
-}
-
-@media (max-width: 325px) {
-  .social-links img {
-    width: 16px;
-    margin: 8px;
-  }
-}
-
+@import url('footer.css');
+@import url('ul.css');
+@import url('media.css');
 
 
 a {

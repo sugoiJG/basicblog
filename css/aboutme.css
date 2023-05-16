@@ -17,9 +17,15 @@
   
 
   .blog-box {
-    width: 100%;
+    width: 500px;
     background: #ffffff;
     border: 1px solid #ececec;
     margin: 20px;
   }
   
+  .blog-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
