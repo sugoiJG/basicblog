@@ -10,9 +10,10 @@
   
   .blog-container {
     display: grid;
-    grid-template-columns: 1fr; /* Specify a single column */
-    justify-items: center; /* Center items horizontally */
-    max-width: 600px; /* Optional: Limit the maximum width of the blog container */
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 600px;
+    margin: 0px;
   }
   
 
